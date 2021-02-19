@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(238, 242, 246)!important;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+header {
+    display: flex;
+    justify-content: space-between !important;
+    background-color: rgb(5, 150, 222);
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    height: 64px;
+}
+
+.navigation>div{
+    margin: 14px 20px 0 0;
+}
+
+.autre {
+    background-color: rgb(5, 150, 222);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pro{
+    background-color: white;
+    color: rgb(5, 150, 222);
+    height: 38px;
+    font-weight: 600;
+    border-radius: 5px;;
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+.logo {
+    width: 64px;
+    /* height: 80px; */
+    /* position: absolute; */
+    /* clip: rect(0px,85px,62px,0px); */
+}
+
+.searchBar {
+    height: 100px;
+    background-color: rgb(50, 169, 228);
+    padding: 30px 100px 30px 100px;
+}
+.cadreResultat {
+    background-color: white;
+    min-height: 270px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: border-color 0.5s ;
+    padding: 20px;
+    display: flex;
+}
+.cadreResultat:hover {
+    border: 1px solid rgb(5, 150, 222);
+    transition: border-color 0.1s ;
+    box-shadow: 0px 0px 10px 2px  rgba(0, 0, 0, 0.2);
+}
+
+.cadreInfo {
+    width: 320px;
+}
+.cadreCalendrier {
+    /* width: 60%; */
+}    
+h1{
+    font-size: 0.9em!important;
+    color: rgb(67, 95, 113);
+    text-align: center;
+    font-weight: bold!important; 
+}
+
+.rdv {
+    /* background-color: rgb(50, 169, 228)!important; */
+    text-transform: uppercase;
+}
+
+.nbMed {
+    background-color: lightgrey;
+    border-radius: 16px;
+    height: 32px;
+}
